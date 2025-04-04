@@ -1,12 +1,16 @@
 # Nobel Prize Visualization
+[![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white)](#)
+[![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#)
+[![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff)](#)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
+[![Markdown](https://img.shields.io/badge/Markdown-%23000000.svg?logo=markdown&logoColor=white)](#)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-![Nobel Prize Visualization](https://img.shields.io/badge/License-MIT-blue.svg)  
-**Interactive visualization of Nobel Prize laureates from 1901 to 2019**
 
-![Main Interface](screenshots/main-interface.png)  
-*Main interface with filters, stats, charts, and laureate list*
+![Screenshot](https://github.com/user-attachments/assets/e3f93067-8bf4-4352-b238-3619e24f2b73)
 
-This project provides an interactive web-based visualization of Nobel Prize winners across various categories from 1901 to 2019. Built with HTML, CSS, and JavaScript, it allows users to explore laureates by category, year, and country through dynamic filters, statistical summaries, and bar charts.
+This project provides an interactive web-based visualization of Nobel Prize winners across various categories from 1901 to 2019. Built with HTML, CSS, and JavaScript, it allows users to explore laureates by category, year, and country through dynamic filters, summaries, and bar charts.
 
 ## Features
 
