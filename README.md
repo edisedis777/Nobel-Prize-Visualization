@@ -1,2 +1,85 @@
-# Nobel-Prize-Visualization
-Interactive visualization of Nobel Prize laureates from 1901 to 2019
+# Nobel Prize Visualization
+
+![Nobel Prize Visualization](https://img.shields.io/badge/License-MIT-blue.svg)  
+**Interactive visualization of Nobel Prize laureates from 1901 to 2019**
+
+![Main Interface](screenshots/main-interface.png)  
+*Main interface with filters, stats, charts, and laureate list*
+
+This project provides an interactive web-based visualization of Nobel Prize winners across various categories from 1901 to 2019. Built with HTML, CSS, and JavaScript, it allows users to explore laureates by category, year, and country through dynamic filters, statistical summaries, and bar charts.
+
+## Features
+
+- **Interactive Filters**: Filter laureates by category (e.g., Chemistry, Physics, Peace), year, or country.
+- **Statistics Panel**: Displays total laureates, unique categories, and countries based on applied filters.
+- **Visual Charts**: 
+  - Bar chart of laureates by category with color-coded bars.
+  - Horizontal bar chart of top 5 countries by laureate count.
+- **Laureate Cards**: Detailed cards listing each laureate with their name, year, country, category, and achievement.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
+
+## Demo
+
+[Insert a link to a live demo here]
+
+## Installation
+
+To run this project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/edisedis777/nobel-prize-visualization.git
+   ```
+
+2. Navigate to the project directory:
+```bash
+cd nobel-prize-visualization
+```
+
+3. Open index.html in a browser:
+Simply open the index.html file directly in your preferred web browser, or
+Use a local server (recommended for proper functionality):
+```bash
+npx live-server
+```
+(Requires Node.js and npm installed)
+
+## Project Structure
+```text
+nobel-prize-visualization/
+├── index.html           # Main HTML file
+├── styles.css           # Stylesheet for layout and design
+├── visualization.js     # Logic for rendering visualizations
+├── data-processor.js    # Data processing and filtering logic
+├── nobel-prize-data.json # Transformed Nobel Prize data
+├── transform.ipynb      # Jupyter notebook for data transformation
+└── README.md            # This file
+```
+
+### Data Source
+The data is sourced from a open-source JSON file, which was transformed from an original dataset (nobel-prize-winners.json) using the Python script in transform.ipynb. The transformed data is structured hierarchically by category, year, and laureate details.
+
+## Data Transformation
+- Input: JSON file (year-based structure)
+- Output: nobel-prize-data.json (category-based hierarchy)
+- Tool: Python with json library (see transform.ipynb)
+
+## Usage
+- Open the application in a browser.
+- Use the dropdown filters to select a category, year, or country.
+- Explore the updated statistics, charts, and laureate list.
+
+## Technologies Used
+- HTML5: Structure of the web page.
+- CSS3: Styling with responsive design and animations.
+- JavaScript (ES6): Data processing, DOM manipulation, and visualization logic.
+- Python: Data transformation script in Jupyter Notebook.
+
+## Contributing
+Contributions are welcome!
+
+## Credits
+Nobel Prize data inspired by public datasets available online.
+
+## License
+This project is licensed under the MIT License - see the  file for details.
