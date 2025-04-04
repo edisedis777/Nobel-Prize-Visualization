@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nobel Prize Visualization</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Nobel Prize Laureates (1901-2019)</h1>
+        <div class="filters">
+          <select id="categoryFilter">
+            <option value="all">All Categories</option>
+            <option value="Chemistry">Chemistry</option>
+            <option value="Literature">Literature</option>
+            <option value="Peace">Peace</option>
+            <option value="Physics">Physics</option>
+            <option value="Medicine">Medicine</option>
+          </select>
+          <select id="yearFilter">
+            <option value="all">All Years</option>
+          </select>
+          <select id="countryFilter">
+            <option value="all">All Countries</option>
+          </select>
+        </div>
+      </header>
+
+      <div class="visualization-container">
+        <div class="stats-panel">
+          <div class="stat-box">
+            <h3>Total Laureates</h3>
+            <p id="totalLaureates">0</p>
+          </div>
+          <div class="stat-box">
+            <h3>Categories</h3>
+            <p id="totalCategories">0</p>
+          </div>
+          <div class="stat-box">
+            <h3>Countries</h3>
+            <p id="totalCountries">0</p>
+          </div>
+        </div>
+
+        <div class="chart-container">
+          <div id="categoryChart" class="chart"></div>
+          <div id="countryChart" class="chart"></div>
+        </div>
+      </div>
+
+      <div class="laureates-container">
+        <h2>Laureates</h2>
+        <div id="laureatesList" class="laureates-list"></div>
+      </div>
+    </div>
+
+    <script src="data-processor.js"></script>
+    <script src="visualization.js"></script>
+  </body>
+</html>
