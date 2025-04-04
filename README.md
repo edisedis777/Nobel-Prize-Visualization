@@ -24,7 +24,7 @@ This project provides an interactive web-based visualization of Nobel Prize winn
 
 ## Demo
 
-[Insert a link to a live demo here]
+[View live demo](https://edisedis777.github.io/Nobel-Prize-Visualization/)
 
 ## Installation
 
