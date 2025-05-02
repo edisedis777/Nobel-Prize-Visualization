@@ -5,7 +5,6 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Markdown](https://img.shields.io/badge/Markdown-%23000000.svg?logo=markdown&logoColor=white)](#)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 
 ![Screenshot](https://github.com/user-attachments/assets/e3f93067-8bf4-4352-b238-3619e24f2b73)
@@ -86,4 +85,4 @@ Contributions are welcome!
 Nobel Prize data inspired by public datasets available online.
 
 ## License
-This project is licensed under the MIT License - see the  file for details.
+Distributed under the GNU Affero General Public License v3.0 License. See `LICENSE` for more information.
